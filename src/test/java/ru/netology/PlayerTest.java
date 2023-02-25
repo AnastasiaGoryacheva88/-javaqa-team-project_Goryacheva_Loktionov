@@ -20,6 +20,7 @@ public class PlayerTest {
         int actual = player.sumGenre(game.getGenre());
         assertEquals(expected, actual);
     }
+
     @Test
     public void ShoulSumHoursWhenGameInstalled() {
         GameStore store = new GameStore();

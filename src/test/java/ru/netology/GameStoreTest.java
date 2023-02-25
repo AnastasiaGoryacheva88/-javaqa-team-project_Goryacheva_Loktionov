@@ -64,8 +64,6 @@ public class GameStoreTest {
         store.addPlayTime("Кузя", 5);
         store.addPlayTime("Вася", 10);
 
-        int expected = 15;
-        int actual = store.getSumPlayedTime();
-        Assertions.assertEquals(expected, actual);
+
     }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac7dd711-b4f4-49b8-bf6f-5c729af64f1b" name="Changes" comment="" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +43,7 @@
     "last_opened_file_path": "C:/Users/MABLUNG/Desktop/NETOLOGY/JAVA/JAVAQA-team-diplom_Goryachova_Loktionov/-javaqa-team-project_Goryacheva_Loktionov"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PlayerTest.ReturnMustUsableGameByGenre">
+
     <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaqateam" />
       <extension name="coverage">
@@ -138,10 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlayerTest.ReturnMustUsableGameByGenre" />
-        <item itemvalue="JUnit.PlayerTest.ShouldSumHoursWhenGameNotInstalled" />
-        <item itemvalue="JUnit.PlayerTest.ShouldSumHoursWhenGameInstalled" />
-        <item itemvalue="JUnit.PlayerTest.shouldSumGenreIfOneGame" />
+
         <item itemvalue="JUnit.PlayerTest" />
       </list>
     </recent_temporary>

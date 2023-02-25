@@ -25,10 +25,12 @@ public class PlayerTest {
     public void ShoulSumHoursWhenGameInstalled() {
         GameStore store = new GameStore();
         Game game = store.publishGame("Нетология Баттл Онлайн", "Аркады");
+
         Player player = new Player("Кузя");
         player.installGame(game);
         int actual = player.play(game, 5);
         int expected = 5;
+<<<<<<< HEAD
         assertEquals(expected, actual);
     }
     @Test
@@ -54,3 +56,6 @@ public class PlayerTest {
         Assertions.assertEquals(expected, actual);
     }
 }
+=======
+     }
+>>>>>>> 29ed92d57a2a459926f93a6202b59d219204eeb5

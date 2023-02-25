@@ -1,4 +1,8 @@
 /.idea/
 /target/
+<<<<<<< HEAD
+/.idea/
+=======
 /GameStore.java
 /Game.java
+>>>>>>> 29ed92d57a2a459926f93a6202b59d219204eeb5

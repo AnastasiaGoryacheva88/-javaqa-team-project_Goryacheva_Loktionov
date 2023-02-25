@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7dd711-b4f4-49b8-bf6f-5c729af64f1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netilogy/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netilogy/GameStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netilogy/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netilogy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/GameStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/GameStoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/PlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +45,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/MABLUNG/Desktop/NETOLOGY/JAVA/JAVAQA-team-diplom_Goryachova_Loktionov/-javaqa-team-project_Goryacheva_Loktionov"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PlayerTest.ReturnMustUsableGameByGenre">
     <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaqateam" />
       <extension name="coverage">
@@ -59,6 +61,70 @@
       <option name="PACKAGE_NAME" value="ru.netology" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.PlayerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.ReturnMustUsableGameByGenre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaqateam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PlayerTest" />
+      <option name="METHOD_NAME" value="ReturnMustUsableGameByGenre" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.ShouldSumHoursWhenGameInstalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaqateam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PlayerTest" />
+      <option name="METHOD_NAME" value="ShouldSumHoursWhenGameInstalled" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.ShouldSumHoursWhenGameNotInstalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaqateam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PlayerTest" />
+      <option name="METHOD_NAME" value="ShouldSumHoursWhenGameNotInstalled" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.shouldSumGenreIfOneGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaqateam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PlayerTest" />
+      <option name="METHOD_NAME" value="shouldSumGenreIfOneGame" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,6 +144,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest.ReturnMustUsableGameByGenre" />
+        <item itemvalue="JUnit.PlayerTest.ShouldSumHoursWhenGameNotInstalled" />
+        <item itemvalue="JUnit.PlayerTest.ShouldSumHoursWhenGameInstalled" />
+        <item itemvalue="JUnit.PlayerTest.shouldSumGenreIfOneGame" />
         <item itemvalue="JUnit.PlayerTest" />
       </list>
     </recent_temporary>

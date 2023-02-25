@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac7dd711-b4f4-49b8-bf6f-5c729af64f1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/PlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Anastasia.Goryacheva/IdeaProjects/project&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PlayerTest.shouldSumGenreIfOneGame">
+  <component name="RunManager" selected="JUnit.PlayerTest.ShoulSumHoursWhenGameNotInstalled">
     <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaqateam" />
       <extension name="coverage">
@@ -140,9 +141,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlayerTest.shouldSumGenreIfOneGame" />
-        <item itemvalue="JUnit.PlayerTest.ReturnMustUsableGameByGenre" />
         <item itemvalue="JUnit.PlayerTest.ShoulSumHoursWhenGameNotInstalled" />
+        <item itemvalue="JUnit.PlayerTest.ReturnMustUsableGameByGenre" />
+        <item itemvalue="JUnit.PlayerTest.shouldSumGenreIfOneGame" />
         <item itemvalue="JUnit.PlayerTest.ShoulSumHoursWhenGameInstalled" />
         <item itemvalue="JUnit.PlayerTest" />
       </list>

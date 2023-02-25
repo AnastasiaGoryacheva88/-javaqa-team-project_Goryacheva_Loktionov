@@ -31,7 +31,6 @@ public class PlayerTest {
         int expected = 5;
         assertEquals(expected, actual);
     }
-
     @Test
     public void ShoulSumHoursWhenGameNotInstalled() {
         GameStore store = new GameStore();
@@ -39,7 +38,6 @@ public class PlayerTest {
         Player player = new Player("Кузя");
         assertThrows(RuntimeException.class, () -> player.play(game, 5));
     }
-
     @Test
     public void ReturnMustUsableGameByGenre() {
         GameStore store = new GameStore();

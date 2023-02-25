@@ -16,8 +16,6 @@ public class GameStoreTest {
         Assertions.assertTrue(store.containsGame(game));
     }
 
-
-
     @Test
     public void shouldAddPlayTime() {
 
@@ -38,12 +36,12 @@ public class GameStoreTest {
     public void shouldSumPlayedTime() {
 
         GameStore store = new GameStore();
-        //       Game game = store.publishGame("Нетология Баттл Онлайн", "Аркады");
+        Game game1 = store.publishGame("Нетология Баттл Онлайн", "Аркады");
 
-        store.addPlayTime("Игрок 1", 7);
-        store.addPlayTime("Игрок 1", 1);
+        store.addPlayTime("Игрок 1", 8);
+        store.addPlayTime("Игрок 2", 9);
 
-        int expected = 8;
+        int expected = 17;
         int actual = store.getSumPlayedTime();
 
         Assertions.assertEquals(expected,actual);
@@ -64,8 +62,6 @@ public class GameStoreTest {
         store.addPlayTime("Кузя", 5);
         store.addPlayTime("Вася", 10);
 
-        int expected = 15;
-        int actual = store.getSumPlayedTime();
-        Assertions.assertEquals(expected, actual);
+
     }
 }

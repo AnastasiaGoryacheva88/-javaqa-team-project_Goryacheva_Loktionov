@@ -4,46 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac7dd711-b4f4-49b8-bf6f-5c729af64f1b" name="Changes" comment="" />
+    <list default="true" id="afe99a09-c735-4287-a973-06a875f63535" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/GameStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/GameStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/GameStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/GameStoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/PlayerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2MDsJOd62WeV6Y3UWJ154PzukAt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/MABLUNG/Desktop/NETOLOGY/JAVA/JAVAQA-team-diplom_Goryachova_Loktionov/-javaqa-team-project_Goryacheva_Loktionov"
-  }
-}]]></component>
-  <component name="RunManager" selected="JUnit.PlayerTest.ReturnMustUsableGameByGenre">
+  <component name="RunManager" selected="JUnit.GameStoreTest.shouldSumPlayedTime">
+    <configuration name="GameStoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaqateam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.GameStoreTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameStoreTest.shouldSumPlayedTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaqateam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.GameStoreTest" />
+      <option name="METHOD_NAME" value="shouldSumPlayedTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaqateam" />
       <extension name="coverage">
@@ -75,62 +84,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.ShouldSumHoursWhenGameInstalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaqateam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.PlayerTest" />
-      <option name="METHOD_NAME" value="ShouldSumHoursWhenGameInstalled" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest.ShouldSumHoursWhenGameNotInstalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaqateam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.PlayerTest" />
-      <option name="METHOD_NAME" value="ShouldSumHoursWhenGameNotInstalled" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest.shouldSumGenreIfOneGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaqateam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.PlayerTest" />
-      <option name="METHOD_NAME" value="shouldSumGenreIfOneGame" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="project" />
+      <module name="javaqateam" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="project" />
+      <module name="javaqateam" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,23 +99,14 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlayerTest.ReturnMustUsableGameByGenre" />
-        <item itemvalue="JUnit.PlayerTest.ShouldSumHoursWhenGameNotInstalled" />
-        <item itemvalue="JUnit.PlayerTest.ShouldSumHoursWhenGameInstalled" />
-        <item itemvalue="JUnit.PlayerTest.shouldSumGenreIfOneGame" />
+        <item itemvalue="JUnit.GameStoreTest.shouldSumPlayedTime" />
+        <item itemvalue="JUnit.GameStoreTest" />
         <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.PlayerTest.ReturnMustUsableGameByGenre" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="ac7dd711-b4f4-49b8-bf6f-5c729af64f1b" name="Changes" comment="" />
-      <created>1677313417078</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1677313417078</updated>
-    </task>
     <servers />
   </component>
 </project>

@@ -37,10 +37,9 @@ public class GameStoreTest {
     public void shouldSumPlayedTime() {
 
         GameStore store = new GameStore();
-        //       Game game = store.publishGame("Нетология Баттл Онлайн", "Аркады");
 
         store.addPlayTime("Игрок 1", 7);
-        store.addPlayTime("Игрок 1", 1);
+        store.addPlayTime("Игрок 2", 1);
 
         int expected = 8;
         int actual = store.getSumPlayedTime();

@@ -54,4 +54,3 @@ public class PlayerTest {
         Game actual = player.mostPlayerByGenre("Аркады");
         Assertions.assertEquals(expected, actual);
     }
-}

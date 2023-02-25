@@ -30,7 +30,6 @@ public class PlayerTest {
         player.installGame(game);
         int actual = player.play(game, 5);
         int expected = 5;
-<<<<<<< HEAD
         assertEquals(expected, actual);
     }
     @Test
@@ -56,6 +55,3 @@ public class PlayerTest {
         Assertions.assertEquals(expected, actual);
     }
 }
-=======
-     }
->>>>>>> 29ed92d57a2a459926f93a6202b59d219204eeb5

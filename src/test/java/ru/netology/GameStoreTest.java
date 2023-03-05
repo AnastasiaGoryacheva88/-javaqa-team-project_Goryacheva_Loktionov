@@ -40,6 +40,10 @@ public class GameStoreTest {
         store.addPlayTime("Игрок 1", 8);
         store.addPlayTime("Игрок 2", 9);
 
+
+        store.addPlayTime("Игрок 1", 7);
+        store.addPlayTime("Игрок 2", 1);
+
         int expected = 17;
         int actual = store.getSumPlayedTime();
 
